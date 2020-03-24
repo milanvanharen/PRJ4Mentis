@@ -2,7 +2,7 @@ html, body {
   background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
   height: 100%;
-  padding-top: 70px;
+  padding-top: 0px;
 }
 
 #page-content {
@@ -17,11 +17,19 @@ html, body {
    transition: 0.5s;
 }
 
-@media screen and (max-width: 992px) {
-    #navbar { background-color: #212529; }
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    #navbar { background-color: #212529 !important; }
+}
 
 @media (min-width: 992px) {
   .animate {
@@ -65,4 +73,8 @@ html, body {
 .slideIn {
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
+}
+
+.mentis-logo {
+	margin-bottom: 100px;
 }

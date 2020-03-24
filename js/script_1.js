@@ -1,4 +1,4 @@
-// When the user scrolls down 20px from the top of the document, slide down the navbar
+// When the user scrolls down 20px from the top of the document, make the background of the nav bar dark.
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {

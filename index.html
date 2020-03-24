@@ -7,13 +7,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Mentis | Home page</title>
+    <title>Mentis | Home</title>
   </head>
   <body>
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark static-top ">
   <div class="container">
     <a class="navbar-brand" href="#">
-          <img src="http://placehold.it/150x50?text=Logo" alt="">
+          <img src="images/index/Logo_mentis2.png" height="80" alt="Logo-Mentis">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,10 +26,16 @@
               </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Mission</a>
+        </li>
+	    <li class="nav-item">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
@@ -50,6 +56,59 @@
     </div>
   </div>
 </nav>
+	  
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('images/index/1.jpg')">
+        <div class="carousel-caption d-md-block">
+		  <img src="images/index/Logo_mentis2.png" class="img-fluid mentis-logo" width="500" alt="Mentis-logo">
+          <h2 class="display-4">First Slide</h2>
+          <p class="lead">This is a description for the first slide.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+        <div class="carousel-caption d-md-block">
+		  <img src="images/index/Logo_mentis2.png" class="img-fluid mentis-logo" width="500" alt="Mentis-logo">
+          <h2 class="display-4">Second Slide</h2>
+          <p class="lead">This is a description for the second slide.</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+        <div class="carousel-caption d-md-block">
+		  <img src="images/index/Logo_mentis2.png" class="img-fluid mentis-logo" width="500" alt="Mentis-logo">
+          <h2 class="display-4">Third Slide</h2>
+          <p class="lead">This is a description for the third slide.</p>
+        </div>
+      </div>
+	      <!-- Slide Four - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/random/1920x1080/?wallpaper,landscape')">
+        <div class="carousel-caption d-md-block">
+		  <img src="images/index/Logo_mentis2.png" class="img-fluid mentis-logo" width="500" alt="Mentis-logo">
+          <h2 class="display-4">Vierde Slide</h2>
+          <p class="lead">This is a description for the vierde slide.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
 	  
 <div class="container text-center">
   <h1 class="mt-5 text-white font-weight-light">Dit is de home page</h1>
@@ -87,7 +146,7 @@
 	 
   <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
-      <small>Copyright &copy; Your Website</small>
+      <small>Copyright &copy; Mentis</small>
     </div>
   </footer>
 
