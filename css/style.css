@@ -1,8 +1,6 @@
 html, body {
-  background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
   height: 100%;
-  padding-top: 0px;
 }
 
 #page-content {
