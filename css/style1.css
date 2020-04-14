@@ -14,7 +14,8 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
-    #navbar { background: linear-gradient(to right, #0062E6, #33AEFF) !important; }
+    #navbar { background: linear-gradient(to right, #0062E6, #33AEFF) !important;}
+	.bannertext {margin-top: 100px;}
 }
 
 @media (min-width: 992px) {
