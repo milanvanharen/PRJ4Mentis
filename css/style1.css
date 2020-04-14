@@ -14,7 +14,7 @@
 }
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
-    #navbar { background: linear-gradient(to right, #0062E6, #33AEFF) !important;}
+    #navbar { background-color: #343a40 !important;}
 	.bannertext {margin-top: 100px;}
 }
 
@@ -82,4 +82,8 @@
 
 .mentis-logo {
 	margin-bottom: 100px;
+}
+
+h1.bannertext {
+	text-shadow: 1px 1px 1px #828282;
 }
