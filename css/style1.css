@@ -13,9 +13,14 @@
    transition: 0.5s;
 }
 
+#navbar:hover {
+	background-color: #343a40 !important;
+}
+
 @media screen and (min-width: 0px) and (max-width: 992px) {
     #navbar { background-color: #343a40 !important;}
 	.bannertext {margin-top: 100px;}
+	.mentis-logo {margin-top: 150px !important}
 }
 
 @media (min-width: 992px) {
@@ -80,10 +85,15 @@
 
 /* SELF-CREATED CLASSES */
 
+h1.bannertext {
+	text-shadow: 1px 1px 1px #828282;
+}
+
 .mentis-logo {
 	margin-bottom: 100px;
 }
 
-h1.bannertext {
-	text-shadow: 1px 1px 1px #828282;
+.quote-text {
+	color: white;
+	font-style: italic;
 }
