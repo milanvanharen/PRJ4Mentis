@@ -20,8 +20,8 @@
 @media screen and (min-width: 0px) and (max-width: 992px) {
     #navbar { background-color: #343a40 !important;}
 	.bannertext {margin-top: 100px;}
-	.mentis-logo {margin-top: 50px !important;
-	width: 350px;}
+	.mentis-logo {width: 350px;
+	margin-bottom: 50px;}
 	.quote-text { line-height: 1.5;}
 }
 
