@@ -22,6 +22,8 @@
 	.bannertext {margin-top: 100px;}
 	.mentis-logo {margin-top: 50px !important;
 	width: 350px;}
+	.mentis-logo {width: 350px;
+	margin-bottom: 200px!important;}
 	.quote-text { line-height: 1.5;}
 }
 
