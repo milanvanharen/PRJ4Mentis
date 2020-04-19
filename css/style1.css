@@ -115,3 +115,22 @@ iframe {
 .lead {
 	color: black;
 }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+ 	color: white;
+}
+
+.fa-instagram {
+	background: #F11FAD;
+	color: white;
+}
