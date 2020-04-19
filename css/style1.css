@@ -107,3 +107,7 @@ h1.bannertext {
 iframe {
 	margin-bottom: 20px;
 }
+
+h3 .values {
+	color: lightpink;
+}
