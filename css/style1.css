@@ -108,6 +108,10 @@ iframe {
 	margin-bottom: 20px;
 }
 
-h3 .values {
-	color: lightpink;
+.values {
+	color: #B9736B;
+}
+
+.lead {
+	color: black;
 }
