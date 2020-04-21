@@ -21,13 +21,13 @@
     #navbar { background-color: #343a40 !important;}
 	.bannertext {margin-top: 100px;
 	padding: 3rem 0;}
-	.mentis-logo {margin-top: 50px !important;
-	width: 350px;}
-	.mentis-logo {width: 350px;
-	margin-bottom: 200px!important;}
-	.mentis-logo {width: 350px;
-	margin-bottom: 50px;}
 	.quote-text { line-height: 1.5;}
+	.mentis-logo {
+		margin-top: 30%!important;
+		margin-bottom: 30%!important;
+		margin-left: 5%!important;
+		margin-right: 5!important;
+	}
 }
 
 @media (min-width: 992px) {
@@ -101,7 +101,7 @@ h1.bannertext {
 }
 
 .mentis-logo {
-	margin-bottom: 80px;
+	margin: 10%
 }
 
 .quote-text {
@@ -121,24 +121,6 @@ iframe {
 	color: black;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa-facebook {
-	background: #3B5998;
- 	color: white;
-}
-
-.fa-instagram {
-	background: #F11FAD;
-	color: white;
-}
 
 /* REGISTER FORM */
 .register {
@@ -244,12 +226,7 @@ iframe {
   color: #777;
 }
 
-.btn-google {
-  color: white;
-  background-color: #ea4335;
-}
-
-.btn-facebook {
-  color: white;
-  background-color: #3b5998;
+.fa {
+	background-color: transparent;
+	padding: 10px!important;
 }
