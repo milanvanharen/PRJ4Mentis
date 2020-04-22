@@ -264,4 +264,12 @@ iframe {
 .fa {
 	background-color: transparent;
 	padding: 10px!important;
+}.privacy {
+	text-align: center;
+	margin: 30px 10rem 60px;
+	text-color: black;
 }
+
+h13 {
+	font-size: 20px;
+	font-weight: bold;
