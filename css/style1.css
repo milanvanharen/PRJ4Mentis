@@ -23,9 +23,7 @@
 	padding: 3rem 0;}
 	.quote-text { line-height: 1.5;}
 	.mentis-logo {
-		width: 320px;
-		margin-top: 25vh!important;
-		margin-bottom: 25vh!important;
+		width: 190px!important;
 	}
 	.login {
 		padding-bottom: 10px!important
@@ -107,8 +105,12 @@ h1.bannertext {
 }
 
 .mentis-logo {
-	margin-top: 15vh;
-	margin-bottom: 20vh;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .quote-text {
