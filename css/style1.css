@@ -1,5 +1,49 @@
+/* PROGRESSBAR */
+::-webkit-scrollbar {
+	display: none;
+}
 
-/* GENERAL */
+::-webkit-scrollbar-thumb {
+	display: none;
+}
+
+progress {
+	position: fixed;
+	left: 0;
+	top: 70px;
+	width: 100%;
+	height: 6px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	background-color: transparent;
+	z-index: 10;
+	margin-top: 30px;
+}
+
+progress::-webkit-progress-bar {
+	background-color: transparent;
+	z-index: 10;
+}
+
+progress::-webkit-progress-value {
+	background: linear-gradient(to right, #0062E6, #33AEFF);
+	z-index: 10;
+}
+
+progress::-moz-progress-bar {
+	background: linear-gradient(to right, #0062E6, #33AEFF);
+	z-index: 10;
+}
+
+.progress-bar {
+	background: linear-gradient(to right, #0062E6, #33AEFF);
+	width: 0%;
+	display: block;
+	height: inherit;
+	z-index: 10;
+}
 
 
 /* FOOTER */
@@ -21,13 +65,13 @@
     #navbar { background-color: #343a40 !important;}
 	.bannertext {margin-top: 100px;
 	padding: 3rem 0;}
-	.mentis-logo {margin-top: 50px !important;
-	width: 350px;}
-	.mentis-logo {width: 350px;
-	margin-bottom: 200px!important;}
-	.mentis-logo {width: 350px;
-	margin-bottom: 50px;}
 	.quote-text { line-height: 1.5;}
+	.mentis-logo {
+		width: 190px!important;
+	}
+	.login {
+		padding-bottom: 10px!important
+	}
 }
 
 @media (min-width: 992px) {
@@ -100,8 +144,17 @@ h1.bannertext {
 	text-shadow: 1px 1px 1px #828282;
 }
 
+.login {
+	padding-bottom: 10px!important;
+}
+
 .mentis-logo {
-	margin-bottom: 80px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .quote-text {
@@ -114,36 +167,23 @@ iframe {
 }
 
 .values {
-	color: #B9736B;
+	color: #329ef7;
 }
 
 .lead {
 	color: black;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa-facebook {
-	background: #3B5998;
- 	color: white;
-}
-
-.fa-instagram {
-	background: #F11FAD;
-	color: white;
-}
 
 /* REGISTER FORM */
 .register {
-  background: #007bff;
   background: linear-gradient(to right, #0062E6, #33AEFF);
+
+}
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
 }
 
 .card-signin {
@@ -161,7 +201,8 @@ iframe {
 
 .card-signin .card-img-left {
   width: 45%;
-  background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512');
+  /* Link to your background image using in the property below! */
+  background: scroll center url("../images/login/login.png");
   background-size: cover;
 }
 
@@ -252,4 +293,36 @@ iframe {
 .btn-facebook {
   color: white;
   background-color: #3b5998;
+}
+
+/* SOCIAL MEDIA BUTTONS IN FOOTER */
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+.fa {
+	background-color: transparent;
+	padding: 10px!important;
+}.privacy {
+	text-align: center;
+	margin: 30px 10rem 60px;
+	text-color: black;
+}
+
+.privacy-title {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-color: black;
+}
+
+.privacy-content {
+	text-color: black;
+	margin-bottom: 10px;
 }
